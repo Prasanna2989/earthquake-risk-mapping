@@ -1,0 +1,13 @@
+name: earthquake-risk
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - folium
+  - geopandas
+  - jupyter
+prefix: /Users/pgun0006/opt/anaconda3/envs/earthquake-risk
