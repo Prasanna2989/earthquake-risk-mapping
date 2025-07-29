@@ -25,7 +25,7 @@ This project aims to explore, visualize, and analyze earthquake risk using geosp
 | `GeoPandas` | Geospatial data processing |
 | `Folium` | Interactive mapping |
 | `Matplotlib` / `Seaborn` | Static visualizations |
-| `scikit-learn` | (Optional) Clustering or modeling |
+| `scikit-learn` | Clustering or modeling |
 | `Jupyter Notebook` | Interactive analysis & demonstration |
 | `conda` | Environment and dependency management |
 
@@ -41,7 +41,8 @@ earthquake-risk-mapping/
 │   └── 02_risk_visualization.ipynb      # (Optional) Advanced mapping
 │
 ├── data/
-│   └── usgs_earthquakes.csv             # Earthquake dataset
+│   └── earthquake_data.csv             # Earthquake dataset
+│   └── cleaned_earthquake_data.csv     # Cleaned Earthquake dataset
 │
 ├── environment.yml                      # Conda environment definition
 ├── .gitignore
