@@ -1,4 +1,4 @@
-# earthquake-risk-mapping
+# Earthquake-risk-mapping
 A geospatial data science project to analyse and visualise earthquake risk using historical USGS data.
 
 # 🌍 Earthquake Risk Mapping
@@ -38,7 +38,9 @@ earthquake-risk-mapping/
 │
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb        # EDA & visualization
-│   └── 02_risk_visualization.ipynb      # (Optional) Advanced mapping
+│   └── 02_feature_engineering_and_modeling.ipynb      # Classification and predictions
+│   └── 03_visualization_and_mapping.ipynb      # Feature identification
+│   └── 04_risk_scoring_and_conclusion.ipynb     # Generation of a risk map
 │
 ├── data/
 │   └── earthquake_data.csv             # Earthquake dataset
@@ -65,7 +67,8 @@ jupyter notebook
 Open 01_data_exploration.ipynb in your browser and run through the cells.
 
 📸 Screenshots
-![Exploratory Plot](screenshots/eda_plot.png)
-![Folium Map](screenshots/folium_map.png)
+![Earthquake Location Plot](images/map_snapshot.png)
+![Earthquake Cluster Map](images/clustered_earthquake_map.png)
+![Earthquake risk Map](images/earthquake_risk_map.png)
 
 
